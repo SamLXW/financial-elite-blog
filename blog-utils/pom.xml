@@ -15,5 +15,13 @@
     <name>blog-utils</name>
     <description> blog web project</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.finelite.blog</groupId>
+            <artifactId>blog-dao</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

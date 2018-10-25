@@ -16,6 +16,13 @@
     <name>blog-entity</name>
     <description> blog web project</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
 
 

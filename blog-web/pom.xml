@@ -26,21 +26,6 @@
         </dependency>
         <dependency>
             <groupId>com.finelite.blog</groupId>
-            <artifactId>blog-utils</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.finelite.blog</groupId>
-            <artifactId>blog-entity</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.finelite.blog</groupId>
-            <artifactId>blog-dao</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.finelite.blog</groupId>
             <artifactId>blog-service</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
