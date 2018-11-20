@@ -1,0 +1,17 @@
+#tomcat 启动设置
+server:
+  port: 8181
+#mysql 的数据库配置
+spring:
+  datasource:
+    name: fineliteblogdb
+    url: jdbc:mysql://127.0.0.1:3306/fineliteblogdb?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  security:
+    basic:
+      enabled: true
+    user:
+      name: admin
+      password: 123456
