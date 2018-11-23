@@ -11,7 +11,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   security:
     basic:
-      enabled: true
+      authorize-mode: NONE
+      enabled: false
     user:
       name: admin
       password: 123456

@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
-import java.util.Date;
 
 @Setter
 @Getter
@@ -13,8 +12,9 @@ public class User extends BaseEntity implements Serializable{
     private static final long serialVersionUID = 1L;
 
     /**
-     * 账户ID
+     * ID
      */
+
     private Long id;
     /**
      * 账户昵称
